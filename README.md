@@ -2,8 +2,8 @@
 [WEBSITE](http://learninghowtocount.pythonanywhere.com)
 ---
 
-Bonus project for Probability and Statistics course at Ukrainian Catholic University.
-
+Bonus project for Probability and Statistics course at Ukrainian Catholic University. :sparkles: :game_die:
+ 
 
 
 ## Description:
