@@ -1,0 +1,5 @@
+button_font = '#d4d4dc'
+button_bg2 = '#5069A3'
+button_bg1 = '#A35650'
+question = '#d4d4dc'
+title = '#d4d4dc'
