@@ -21,3 +21,4 @@ Bonus project for Probability and Statistics course at Ukrainian Catholic Univer
 ---
 
 ## License:
+[GNU General Public License v3.0](https://github.com/dariaomelkina/learning_how_to_count/blob/master/LICENSE)
