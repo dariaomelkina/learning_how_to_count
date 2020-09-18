@@ -14,7 +14,10 @@ It consists of a web application, which offers users questions, which will lead 
 with explanation, examples and some visuals.
 
 Example a workflow:
-![]()
+![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen1.png)
+![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen2.png)
+![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen3.png)
+![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen4.png)
 
 ---
 
