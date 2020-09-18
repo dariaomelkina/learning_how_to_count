@@ -34,6 +34,12 @@ extra_info = [dcc.Markdown("Bonus Project for Probability & Statistics Course",
                                                                                'font-size': '15px',
                                                                                'display': 'inline-block'})]
 
+start_link = dcc.Link(children='START ONCE AGAIN', href='/start',
+                      refresh=True,
+                      style={'color': '#B6B6CA',
+                             'margin-left': 93,
+                             'font-size': '15px'})
+
 # Create app
 server = Flask(__name__)
 # Actually different on server
@@ -124,40 +130,50 @@ basic = dash.Dash(name=__name__, server=server, external_stylesheets=external_st
                   routes_pathname_prefix='/basic/')
 basic.title = "LEARNING HOW TO COUNT"
 basic.layout = html.Div([dcc.Markdown("test", style={'font-size': '0px'}),
+                         html.Div(start_link,
+                                  style={'margin-top': 20}),
                          html.Div(extra_info,
-                                  style={'margin-top': 690}),
+                                  style={'margin-top': 650}),
                          ], style={'background-image': 'url("assets/basicpoc8.png")'})
 
 allocations = dash.Dash(name=__name__, server=server, external_stylesheets=external_stylesheets,
                         routes_pathname_prefix='/allocations/')
 allocations.title = "LEARNING HOW TO COUNT"
 allocations.layout = html.Div([dcc.Markdown("test", style={'font-size': '0px'}),
+                               html.Div(start_link,
+                                        style={'margin-top': 20}),
                                html.Div(extra_info,
-                                        style={'margin-top': 690}),
+                                        style={'margin-top': 650}),
                                ], style={'background-image': 'url()'})
 
 permutations = dash.Dash(name=__name__, server=server, external_stylesheets=external_stylesheets,
                          routes_pathname_prefix='/permutations/')
 permutations.title = "LEARNING HOW TO COUNT"
 permutations.layout = html.Div([dcc.Markdown("test", style={'font-size': '0px'}),
+                                html.Div(start_link,
+                                         style={'margin-top': 20}),
                                 html.Div(extra_info,
-                                         style={'margin-top': 690}),
+                                         style={'margin-top': 650}),
                                 ], style={'background-image': 'url()'})
 
 multinomial = dash.Dash(name=__name__, server=server, external_stylesheets=external_stylesheets,
                         routes_pathname_prefix='/multinomial/')
 multinomial.title = "LEARNING HOW TO COUNT"
 multinomial.layout = html.Div([dcc.Markdown("test", style={'font-size': '0px'}),
+                               html.Div(start_link,
+                                        style={'margin-top': 20}),
                                html.Div(extra_info,
-                                        style={'margin-top': 690}),
+                                        style={'margin-top': 650}),
                                ], style={'background-image': 'url()'})
 
 combinations = dash.Dash(name=__name__, server=server, external_stylesheets=external_stylesheets,
                          routes_pathname_prefix='/combinations/')
 combinations.title = "LEARNING HOW TO COUNT"
 combinations.layout = html.Div([dcc.Markdown("test", style={'font-size': '0px'}),
+                                html.Div(start_link,
+                                         style={'margin-top': 20}),
                                 html.Div(extra_info,
-                                         style={'margin-top': 690}),
+                                         style={'margin-top': 650}),
                                 ], style={'background-image': 'url()'})
 
 
