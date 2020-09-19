@@ -13,7 +13,7 @@ or arranged, or distributed, etc.
 It consists of a web application, which offers users questions, which will lead to the right formula
 with explanation, examples and some visuals.
 
-Example a workflow:
+Example of a workflow:
 ![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen1.png)
 ![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen2.png)
 ![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen3.png)
