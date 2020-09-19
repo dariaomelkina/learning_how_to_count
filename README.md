@@ -18,6 +18,7 @@ Example of a workflow:
 ![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen2.png)
 ![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen3.png)
 ![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen4.png)
+![](https://github.com/dariaomelkina/learning_how_to_count/blob/master/media/screen5.png)
 
 ---
 
