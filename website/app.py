@@ -51,7 +51,7 @@ app.layout = html.Div([dcc.Markdown("WELCOME TO THE \"LEARNING HOW TO COUNT\"!",
                                     style={'color': title, 'width': '100%', 'display': 'flex', 'align-items': 'center',
                                            'justify-content': 'center', 'font-size': '35px', 'margin-top': 40}),
                        html.Div(dcc.Markdown(
-                           "That projects aims to help you with problems, which involve counting number of ways some objects can be chosen, or arranged, or distributed, etc. We prepared some questions, which will lead you to right formulas with explanation and typical examples. Without further ado...",
+                           "This projects aims to help you with problems, which involve counting number of ways some objects can be chosen, or arranged, or distributed, etc. We prepared some questions, which will lead you to right formulas with explanation and typical examples. Without further ado...",
                            style={'color': "#B6B6CA", 'width': 850, 'text-align': 'center'}),
                            style={'width': "100%", 'display': 'flex', 'align-items': 'center',
                                   'justify-content': 'center', 'font-size': '20px', 'margin-top': 4}),
