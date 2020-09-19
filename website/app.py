@@ -134,7 +134,7 @@ basic.layout = html.Div([dcc.Markdown("test", style={'font-size': '0px'}),
                                   style={'margin-top': 20}),
                          html.Div(extra_info,
                                   style={'margin-top': 650}),
-                         ], style={'background-image': 'url("assets/basicpoc8.png")'})
+                         ], style={'background-image': 'url("assets/basic.png")'})
 
 allocations = dash.Dash(name=__name__, server=server, external_stylesheets=external_stylesheets,
                         routes_pathname_prefix='/allocations/')
@@ -144,7 +144,7 @@ allocations.layout = html.Div([dcc.Markdown("test", style={'font-size': '0px'}),
                                         style={'margin-top': 20}),
                                html.Div(extra_info,
                                         style={'margin-top': 650}),
-                               ], style={'background-image': 'url()'})
+                               ], style={'background-image': 'url("assets/allocation.png")'})
 
 permutations = dash.Dash(name=__name__, server=server, external_stylesheets=external_stylesheets,
                          routes_pathname_prefix='/permutations/')
@@ -154,7 +154,7 @@ permutations.layout = html.Div([dcc.Markdown("test", style={'font-size': '0px'})
                                          style={'margin-top': 20}),
                                 html.Div(extra_info,
                                          style={'margin-top': 650}),
-                                ], style={'background-image': 'url()'})
+                                ], style={'background-image': 'url("assets/permutations.png")'})
 
 multinomial = dash.Dash(name=__name__, server=server, external_stylesheets=external_stylesheets,
                         routes_pathname_prefix='/multinomial/')
@@ -164,7 +164,7 @@ multinomial.layout = html.Div([dcc.Markdown("test", style={'font-size': '0px'}),
                                         style={'margin-top': 20}),
                                html.Div(extra_info,
                                         style={'margin-top': 650}),
-                               ], style={'background-image': 'url()'})
+                               ], style={'background-image': 'url("assets/multinomial.png")'})
 
 combinations = dash.Dash(name=__name__, server=server, external_stylesheets=external_stylesheets,
                          routes_pathname_prefix='/combinations/')
@@ -174,7 +174,7 @@ combinations.layout = html.Div([dcc.Markdown("test", style={'font-size': '0px'})
                                          style={'margin-top': 20}),
                                 html.Div(extra_info,
                                          style={'margin-top': 650}),
-                                ], style={'background-image': 'url()'})
+                                ], style={'background-image': 'url("assets/combinations.png")'})
 
 
 @app.server.route('/')
